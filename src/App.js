@@ -2,14 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Comment from './Comment'
 import Forum from './Forum'
-import Ecommerse from './Ecommerse'
+import Ecommerce from './Ecommerce'
 
 function App() {
   return (
     <div className="App">
       <Comment></Comment>
       <Forum topic = "What is React"></Forum>
-      <Ecommerse></Ecommerse>
+      <Ecommerce></Ecommerce>
       
     </div>
   );

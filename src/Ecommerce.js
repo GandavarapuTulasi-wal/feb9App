@@ -1,5 +1,5 @@
 import { useState } from 'react'
-function Ecommerse() {
+function Ecommerce() {
     let [todos, setTodos] = useState([])
     const addProduct=(event)=>{
         event.preventDefault();
@@ -30,7 +30,7 @@ function Ecommerse() {
 
     return (
         <div class="card">
-            <h1>Ecommerse App</h1>
+            <h1>Ecommerce App</h1>
             <form onSubmit={addProduct}>
                 <input type="text" name="name" placeholder="Enter Product Name" className="todo-user-input"/><br/>
                 <textarea rows="3" cols="24" name="description" className="todo-user-input" placeholder="Enter Description"></textarea><br/>
@@ -59,4 +59,4 @@ function Ecommerse() {
     )
 
 }
-export default Ecommerse
+export default Ecommerce
